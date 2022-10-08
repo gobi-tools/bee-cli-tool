@@ -11,8 +11,8 @@ os=$(uname | tr '[:upper:]' '[:lower:]')
 arch=$(uname -m )
 # form correct download url 
 resource_name="bbee-"$os"-"$arch
-MAIN_SCRIPT_URL=https://github.com/devgabrielcoman/scriptexchange-aliasengine/blob/main/dist/$resource_name?raw=true
-WRAPPER_SCRIPT_URL=https://raw.githubusercontent.com/devgabrielcoman/scriptexchange-aliasengine/main/beewrapper.sh
+MAIN_SCRIPT_URL=https://github.com/gobi-tools/bee-cli-tool/blob/main/dist/$resource_name?raw=true
+WRAPPER_SCRIPT_URL=https://raw.githubusercontent.com/gobi-tools/bee-cli-tool/main/beewrapper.sh
 
 # create folder
 mkdir -p $PATH_PREFIX
