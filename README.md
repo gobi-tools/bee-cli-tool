@@ -25,4 +25,4 @@ alias bee='$HOME/.local/bin/bee/bee'
 
 # Details
 
-More details [here](https://google.com).
+More details [here](https://bee-website-9n6.pages.dev/tutorial#title).
