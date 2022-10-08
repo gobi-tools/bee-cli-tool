@@ -1,6 +1,8 @@
 # Bee
 This is a command line utility to help out with managing your aliases, functions and scripts. 
 
+<img src="/assets/main-screen.jpg?raw=true" alt="Bee Screenshot" width="100%"/>
+
 # Installation
 
 To install, execute this command in your terminal:
