@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # run the main bee script - passing any arguments
-$HOME/.local/bin/scripthub/bbee "$@"
+$HOME/.local/bin/bee/bbee "$@"
 
-lastCommandFile=$HOME/.local/bin/scripthub/lastcommand
+lastCommandFile=$HOME/.local/bin/bee/lastcommand
 # if a last command file exists
 if [ -f "$lastCommandFile" ]
 then
