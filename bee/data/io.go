@@ -19,19 +19,19 @@ func getHomeUrl() string {
 
 func getDataUrl() string {
 	var home = getHomeUrl()
-	var path = ".local/bin/scripthub/data.json"
+	var path = ".local/bin/bee/data.json"
 	return fmt.Sprintf("%s/%s", home, path)
 }
 
 func getSourcesUrl() string {
 	var home = getHomeUrl()
-	var path = ".local/bin/scripthub/sources.json"
+	var path = ".local/bin/bee/sources.json"
 	return fmt.Sprintf("%s/%s", home, path)
 }
 
 func getLastCommandUrl() string {
 	var home = getHomeUrl()
-	var path = ".local/bin/scripthub/lastcommand"
+	var path = ".local/bin/bee/lastcommand"
 	return fmt.Sprintf("%s/%s", home, path)
 }
 

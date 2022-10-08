@@ -11,14 +11,14 @@ To install, execute this command in your terminal:
 
 This will download [this script](https://github.com/gobi-tools/bee-cli-tool/blob/main/install.sh). 
 
-In turn, this will download a binary into a new folder on your system: `$HOME/.local/bin/scripthub/`. 
+In turn, this will download a binary into a new folder on your system: `$HOME/.local/bin/bee/`. 
 
 The binary depends on your platform. You can find all options [here](https://github.com/gobi-tools/bee-cli-tool/tree/main/dist).
 
 Finally, in your `.bashrc`, `.zshrc`, `.profile` file, add the following line, to create a shorthand for the script:
 
 ```
-alias bee='$HOME/.local/bin/scripthub/bee'
+alias bee='$HOME/.local/bin/bee/bee'
 ```
 
 # Details
