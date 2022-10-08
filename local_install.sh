@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # define variables used by the script
-PATH_PREFIX=$HOME/.local/bin/scripthub
+PATH_PREFIX=$HOME/.local/bin/bee
 
 # create local build folder
 mkdir -p build 
