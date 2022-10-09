@@ -28,3 +28,10 @@ func Test_DateFormat(t *testing.T) {
 		assert.Equal(t, expected, result)
 	})
 }
+
+func Test_CurrentTime(t *testing.T) {
+	t.Run("should return a non-zero timestamp", func(t *testing.T) {
+		var result int64 = CurrentTime()
+		assert.Greater(t, result, int64(0))
+	})
+}
