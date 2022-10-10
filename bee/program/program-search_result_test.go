@@ -34,7 +34,7 @@ func Test_NewSearchResult(t *testing.T) {
 		assert.Equal(t, Item, actual.resultType)
 	})
 
-	t.Run("should create new alias function result", func(t *testing.T) {
+	t.Run("should create new function search result", func(t *testing.T) {
 		var item = models.IndexItem{
 			Name:       "test",
 			Content:    "ls -all",
@@ -60,7 +60,7 @@ func Test_NewSearchResult(t *testing.T) {
 		assert.Equal(t, Item, actual.resultType)
 	})
 
-	t.Run("should create new alias script result", func(t *testing.T) {
+	t.Run("should create new script search result", func(t *testing.T) {
 		var item = models.IndexItem{
 			Name:       "test",
 			Content:    "ls -all",
@@ -86,7 +86,7 @@ func Test_NewSearchResult(t *testing.T) {
 		assert.Equal(t, Item, actual.resultType)
 	})
 
-	t.Run("should create new export script result", func(t *testing.T) {
+	t.Run("should create new export search result", func(t *testing.T) {
 		var item = models.IndexItem{
 			Name:       "test",
 			Content:    "ls -all",
