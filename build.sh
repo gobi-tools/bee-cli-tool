@@ -14,7 +14,7 @@ mkdir dist
 # go to source folder
 cd bee
 
-# go through each platform
+# go through each Platform
 for platform in "${platforms[@]}"
 do
 	platform_split=(${platform//\// })
