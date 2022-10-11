@@ -23,9 +23,3 @@ jobs:
 
     - name: Test
       run: cd bee && go test -v -coverprofile cover.out ./...
-  # deploy:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - name: Deploy new version
-  #     run: ./build.sh
-  #     shell: bash
