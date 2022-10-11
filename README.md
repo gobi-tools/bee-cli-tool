@@ -27,4 +27,4 @@ alias bee='$HOME/.local/bin/bee/bee'
 
 # Details
 
-More details [here](https://bee-website-9n6.pages.dev/tutorial#title).
+More details [here](https://bee-cli.com/tutorial#title).
